@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Olga Fedossenko-project2-index</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/project2-css.css">
+  
+  <!-- Bootstrap and Fontawesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	
+  <!--Fonts-->	
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	
+<!--Navbar-->
+	
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="font-size: 1.2rem;">
+  <div class="container-fluid">
+    <a class="navbar-brand mt-2 mt-lg-0" href="index.html" aria-label="Home - Olga Fedossenko">
+        <img
+          src="assets/images/my logo/logo.png"
+          height="50"
+          alt="personal identity logo - Olga Fedossenko"
+          loading="lazy"
+        />
+      </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html" aria-label="Go to Home page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html" aria-label="Go to Resume page">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html" aria-label="Go to Projects page">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" aria-label="Go to Contact page">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html" aria-label="Go to Video blog">Video blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--Hero with short intro-->
+	
+<div class="d-flex justify-content-center align-items-center bg-image rounded-3" style="background-image: url('assets/images/other/hero-bkg.jpg'); height: 700px; position: relative">
+  <div class="mask" style="background-color: rgba(23, 4, 4, 0.5); width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1;"></div>
+  <div class="container" style="position: relative; z-index: 2;">
+	<div class="row">
+      <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <img class="img-fluid mb-2" src="assets/images/profile-pics/profile-pic2.jpg" alt="profile image" style="max-height: 300px; width: auto;">
+      </div>
+      <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
+        <h1 id="h1-hero-md" class="display-4 text-white">Olga Fedossenko</h1>
+        <p id="p-hero-md" class="lead text-white" style="line-height: 35px;">
+          I am a fourth-year student at 
+          <button type="button" class="btn btn-toggle btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="University of Toronto">U of T</button> 
+          double majoring in Professional Writing and Communications, Culture, Information and Technology. I am also a passionate writer and video journalist skilled at reporting, interviewing, research, and storytelling.
+        </p>
+        <!-- Button trigger modal -->
+        <div class="d-flex justify-content-center justify-content-md-start">
+			<button type="button" class="btn btn-button mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-label="open modal to get in touch">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get in touch:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close modal"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="contactName" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Type here">
+          </div>
+          <div class="mb-3">
+            <label for="contactEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Type here">
+          </div>
+          <div class="mb-3">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea class="form-control" rows="3" placeholder="Type here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-button">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+	
+
+<!--Bylines=article written by someone. This section shows my recent most read bylines-->
+	
+<div class="container mt-5 mb-4">
+  <h2 class="display-5 text-black ms-3">My recent bylines</h2>
+</div>
+	
+	
+<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- First Row (Active) -->
+    <div class="carousel-item active">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- Card 1 -->
+          <div class="col-12 col-md-4 d-flex justify-content-end mb-3">
+            <div class="card" style="width: 20rem; height: 460px;">
+              <img src="assets/images/article bkgs/NEWS_DEAN-SOCIAL-MEDIA_VICKY-HUANG-WEB.jpg" alt="illustration for article 1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">U of T faculty called into Dean’s office for supporting Palestine on social media</h5>
+                <p class="card-text">Professors express concern over the admin’s actions, the “Palestine exception” on campus</p>
+                <a href="https://thevarsity.ca/2024/11/18/u-of-t-faculty-members-called-into-deans-office-for-supporting-palestine-on-social-media/" class="btn btn-button" aria-label="Read article about U of T faculty supporting Palestine on social media">Read article</a>
+              </div>
+            </div>
+          </div>
+			
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center mb-3">
+            <div class="card" style="width: 20rem; height: 460px;">
+              <img src="assets/images/article bkgs/News_UTFAStatement_Chloe_Weston.jpg" alt="illustration for article 2" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">U of T faculty members criticize university’s User Guide on protest policies</h5>
+                <p class="card-text">UTFA issues letter to Vice-President and Provost Trevor Young to express “strong concerns”</p>
+                <a href="https://thevarsity.ca/2024/11/18/u-of-t-faculty-members-criticize-universitys-user-guide-on-protest-policies/" class="btn btn-button" aria-label="Read article about UTFA's letter to Vice-President and Provost Trevor Young">Read article</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-md-4 d-flex justify-content-start mb-3">
+            <div class="card" style="width: 20rem; height: 460px;">
+              <img src="assets/images/article bkgs/NEWS-Prime_Minister_Letter-COURTESY-OF-TAKIPOINT123-CC-WIKIMEDIA-COMMONS-house_of_commons_of_canada-web.jpg" alt="illustration for article 3" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">U of T faculty calls on Prime Minister to end financing the fossil fuel sector</h5>
+                <p class="card-text">U of T professors discuss government subsidies, RBC, loopholes in climate policies</p>
+                <a href="https://thevarsity.ca/2024/10/07/u-of-t-faculty-calls-on-prime-minister-to-end-financing-the-fossil-fuel-sector/" class="btn btn-button" aria-label="Read article about U of T faculty calling on Prime Minister to end financing the fossil fuel sector">Read article</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="carousel-item">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+
+          <!-- Card 4 -->
+          <div class="col-12 col-md-4 d-flex justify-content-end mb-3">
+            <div class="card" style="width: 20rem; height: 460px;">
+              <img src="assets/images/article bkgs/NEWS-RED_ZONE-JAYLIN_KIM-WEB.jpg" alt="illustration for article 4" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">U of T students, admin spread awareness about spike in sexual violence on campus</h5>
+                <p class="card-text">Students call on the university to intervene during the Red Zone</p>
+                <a href="https://thevarsity.ca/2024/09/30/u-of-t-students-admin-spread-awareness-about-spike-in-sexual-violence-on-campus/" class="btn btn-button"  aria-label="Read article about spike in sexual violence at U of T">Read article</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-12 col-md-4 d-flex justify-content-center mb-3">
+            <div class="card" style="width: 20rem; height: 460px;">
+              <img src="assets/images/article bkgs/NEWS-Grassy_Narrows-GENEVIEVE-SUGRUETHEVARSITY-1-web.jpg" alt="illustration for article 5" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Students rally against mercury poisoning in Grassy Narrows First Nation</h5>
+                <p class="card-text">Community suffers from water contamination since the 1960s</p>
+                <a href="https://thevarsity.ca/2024/09/23/students-rally-against-mercury-poisoning-in-grassy-narrows-first-nation/" class="btn btn-button">Read article</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-12 col-md-4 d-flex justify-content-start mb-3">
+            <div class="card" style="width: 20rem; height: 460px;">
+              <img src="assets/images/article bkgs/CRNCR_Issue-3_Milena_Pappalardo.jpeg" alt="illustration for article 6" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">To extend or not to extend: U of T unions campaign to change CR/NCR deadline</h5>
+                <p class="card-text">Students lobby to make program requirements eligible for CR/NCR</p>
+                <a href="https://thevarsity.ca/2024/09/16/to-extend-or-not-to-extend-u-of-t-unions-campaign-to-change-cr-ncr-deadline/" class="btn btn-button" aria-label="Read article about U of T students campaigning to change CR/NCR deadline">Read article</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-label="Go to previous slide"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-label="Go to next slide"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+	
+
+<!--Video blog or vlog sneak peek-->
+	
+<div class="container mt-5 mb-4">
+  <h2 class="display-5 text-black ms-3">Latest blog post<span class="badge badge-new mw100">New</span></h2>
+</div>
+
+<div class="container">
+  <div class="row d-flex justify-content-around align-items-center ms-md-5 ms-lg-0">
+    <!-- Video Section -->
+    <div class="col-lg-6 col-md-12">
+      <video controls poster="assets/images/other/thumbnail.jpg" style="width: 100%; height: auto;">
+        <source src="assets/videos/Anchor _Final_VERSION 2mp4 copy.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- Text Section -->
+    <div class="col-lg-4 col-md-12">
+      <h5 id="h5-video-home">In my spare time, I film short movies and documentaries. You can check out my films in my blog.</h5>
+      <p id="p-video-home">Here's my recent coming-of-age film called <i>Anchor</i>.</p>
+	  <div class="d-flex justify-content-center justify-content-md-start">
+		  <a href="blog.html" class="btn btn-button">Go to blog</a>
+	  </div>
+    </div>
+  </div>
+</div>
+
+	
+		
+<!--Footer-->
+	
+<footer role="contentinfo" id="footer" class="footer position-relative mt-5" style="background-color: #f6f0ea;">
+    <div class="container text-center">
+      <h3 class="sitename pt-4">Olga Fedossenko</h3>
+      <p>Connect with me on socials:</p>
+      <div class="social-links px-4 pb-3 d-flex justify-content-center">
+        <a href="https://www.instagram.com/olyafedossenko/" target="_blank"><i class="fa fa-instagram fs-3"></i></a>
+        <a href="https://www.linkedin.com/in/olga-olya-fedossenko-291857258/" target="_blank"><i class="fa fa-linkedin fs-3"></i></a>
+      </div>
+	  <hr class="hr"/>
+      <div class="container text-center">
+        <div class="copyright pb-3">
+          <span>Copyright</span> <strong class="px-1 sitename">Olga Fedossenko |</strong> <span>All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+</footer>
+	
+	
+	
+	
+<!--JS bundle + tooltip initialization code-->
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Initialize tooltips
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  });
+</script>	
+</body>
+</html>
